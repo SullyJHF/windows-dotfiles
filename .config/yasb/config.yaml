@@ -249,21 +249,21 @@ widgets:
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
-      label: "\uf011"
+      label: "\udb81\udc26"
       uptime: True
       blur: False
       blur_background: True
-      animation_duration: 300 # Milisecond
+      animation_duration: 300 # Milliseconds
       button_row: 3 # Number of buttons in row, min 1 max 5
       buttons:
         lock: ["\uea75", "Lock"]
         signout: ["\udb80\udf43", "Sign out"]
         #sleep: ["\u23fe","Sleep"]
-        shutdown: ["\uf011", "Shut Down"]
+        shutdown: ["\u23fb", "Shut Down"]
         restart: ["\uead2", "Restart"]
         hibernate: ["\uf28e", "Hibernate"]
         cancel: ["\udb81\udf3a", "Cancel"]
-        #force_shutdown: ["\uf011","Force Shut Down"]
+        #force_shutdown: ["\u23fb","Force Shut Down"]
         #force_restart: ["\uead2","Force Restart"]
 
   apps:
